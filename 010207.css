@@ -1,0 +1,107 @@
+body {
+  background-color: #FFF;
+  margin: 0 auto;
+}
+header {
+  background-color: #E8FFC4;
+  padding: 0px 500px 20px 0px;
+  font-family: 'Noto Serif TC', serif;
+  font-size: 25px;
+  z-index: 2;
+  color: rgb(102, 102, 102);
+  position: fixed;
+}
+
+.logo_dog {
+  display:inline ;
+  background-color: #E8FFC4;
+  width: 100px;
+  filter: opacity(70%);
+}
+
+
+nav {
+  display: inline-block;
+  float: right;
+  position: fixed;
+  top: 0;
+  right:0;
+  z-index: 10;
+  background-color: #E8FFC4;
+  
+}
+nav ul li {
+  display: inline-block;
+  margin: 40px 10px 35px;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+  color: #F4AB25;
+}
+
+
+h1 {
+  color: rgb(144, 124, 111);
+  margin: 150px auto 0px;
+  width: 600px;
+}
+.photo {
+  margin: 20px auto 5px;
+  float: center;
+  width: 600px;
+}
+
+.title2 {
+  position: relative;
+  margin: 20px auto;
+  font-size: 28px;
+  width: 600px;
+}
+
+.keyword {
+  margin: 20px auto;
+  font-size: 24px;
+  width: 600px;
+}
+.eg {
+  margin: 10px auto;
+  font-size: 20px;
+  width: 600px;
+  padding-left: 30px;
+}
+
+.keyword .eg span {
+  font-weight: bold;
+}
+
+.additional {
+  padding: 10px;
+  border:#E8FFC4 dashed;
+  margin: 20px auto;
+  width: 600px;
+  background-color: rgba(232, 255, 194, 0.5);
+}
+.meaning2 {
+  display: inline;
+  margin: 20px auto 50px;
+  font-size: 20px;
+  font-weight: bold;
+  width: 600px;
+}
+
+.fa .fa-camera-retro {
+  display: inline;
+  margin: 25px auto;
+  width: 600px;
+}
+
+figcaption {
+  font-size: 16px;
+  width: 600px;
+  text-align: center;
+  font-family: Arial;
+  
+}

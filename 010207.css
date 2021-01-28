@@ -1,20 +1,22 @@
 body {
-  background-color: #FFF;
+  background-color: rgb(254, 237, 231);
   margin: 0 auto;
+  height: 100%;
 }
+
 header {
-  background-color: #E8FFC4;
+  background-color: rgb(232, 255, 194);
   padding: 0px 500px 20px 0px;
   font-family: 'Noto Serif TC', serif;
   font-size: 25px;
-  z-index: 2;
-  color: rgb(102, 102, 102);
-  position: fixed;
+  z-index: 3;
+  color: rgba(102, 102, 102);
+  position: absolute;
 }
 
 .logo_dog {
   display:inline ;
-  background-color: #E8FFC4;
+  background-color: rgb(232, 255, 194);
   width: 100px;
   filter: opacity(70%);
 }
@@ -23,11 +25,11 @@ header {
 nav {
   display: inline-block;
   float: right;
-  position: fixed;
+  position: absolute;
   top: 0;
   right:0;
   z-index: 10;
-  background-color: #E8FFC4;
+  background-color: rgb(232, 255, 194);
   
 }
 nav ul li {
@@ -42,12 +44,34 @@ a:hover{
   color: #F4AB25;
 }
 
+main {
+  margin: 0 auto 150px;
+  width: 900px;
+  background-color: white;
+  border: 20px rgba(254, 237, 231, 0.5);
+  position: relative;
+  top: 140px;
+  padding-bottom:100px;
+  z-index: 5;
+}
 
 h1 {
   color: rgb(144, 124, 111);
-  margin: 150px auto 0px;
+  margin:  0px 70px;
+  padding-top: 70px;
+  padding-bottom: 20px;
   width: 600px;
+  
+
 }
+
+.poster {
+  display: block;
+  margin: 20px auto;
+  float: center;
+  width: 800px;
+}
+
 .photo {
   margin: 20px auto 5px;
   float: center;
@@ -104,4 +128,65 @@ figcaption {
   text-align: center;
   font-family: Arial;
   
+}
+
+/* 回到頂端 56px */
+.toTop-arrow {
+	width: 3.5rem;
+	height: 3.5rem;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	border-radius: 33%;
+	opacity: 0.5;
+	background: #000;
+	cursor: pointer;
+	position:fixed;
+	right: 1rem;
+	bottom: 1rem;
+	display: none;
+  z-index: 10;
+}
+.toTop-arrow::before, .toTop-arrow::after {
+	width: 31px;
+	height: 7px;
+	border-radius: 3px;
+	background: #f90;
+	position: absolute;
+	content: "";
+}
+.toTop-arrow::before {
+	transform: rotate(-45deg) translate(0, -50%);
+	left: 0.4rem;
+}
+.toTop-arrow::after {
+	transform: rotate(45deg) translate(0, -50%);
+	right: 0.4rem;
+}
+.toTop-arrow:focus {outline: none;}
+.toTop-arrow:hover{
+  background-color: rgba(255, 153, 0, 0.3);
+}
+
+.background2 {
+  background-color: rgb(232, 255, 194);
+  font-family: 'Noto Serif TC', serif;
+  font-size: 25px;
+  z-index: 2;
+  color: rgba(102, 102, 102);
+  position: absolute;
+  height: 300px;
+  top: 100px;
+  width:100%;
+}
+footer {
+  background-color: rgb(232, 255, 194);
+  font-family: 'Noto Serif TC', serif;
+  font-size: 25px;
+  z-index: 3;
+  color: rgba(102, 102, 102);
+  position:relative;
+  width:100%;
+  bottom: -100px;
+  height: 200px;   /* Height of the footer */
 }

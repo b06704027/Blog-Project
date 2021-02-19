@@ -1,0 +1,223 @@
+body {
+  background-color: rgb(254, 237, 231);
+  margin: 0 auto;
+  height: 100%;
+}
+
+header {
+  background-color: rgb(232, 255, 194);
+  padding: 0px 1000px 20px 0px;
+  font-family: 'Noto Serif TC', sans-serif;
+  font-size: 25px;
+  z-index: 3;
+  color: rgba(102, 102, 102);
+  position: absolute;
+}
+
+.logo_dog {
+  display:inline ;
+  background-color: rgb(232, 255, 194);
+  width: 100px;
+  filter: opacity(70%);
+}
+
+
+nav {
+  display: inline-block;
+  float: right;
+  position: absolute;
+  top: 0;
+  right:0;
+  z-index: 10;
+  background-color: rgb(232, 255, 194);
+  
+}
+nav ul li {
+  display: inline-block;
+  margin: 40px 10px 35px;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+  color: #F4AB25;
+}
+
+main {
+  margin: 0 auto 150px;
+  width: 900px;
+  background-color: white;
+  border: 20px rgba(254, 237, 231, 0.5);
+  position: relative;
+  top: 140px;
+  padding-bottom:100px;
+  z-index: 5;
+}
+
+h1 {
+  color: rgb(144, 124, 111);
+  margin:  20px 70px;
+  padding-top: 70px;
+  padding-bottom: 0px;
+  width: 800px;
+  
+
+}
+
+.poster {
+  display: block;
+  margin: 40px auto;
+  float: center;
+  width: 700px;
+}
+
+
+#p4 {
+  display: block;
+  margin: 0px auto;
+  float: center;
+  width: 600px;
+}
+
+.photo {
+  display: block;
+  margin: 20px auto 20px;
+  float: center;
+  width: 600px;
+}
+
+.intro{
+  display: block;
+  margin: 20px auto 50px;
+  font-size: 20px;
+  font-weight: bold;
+  width: 700px;
+}
+.title2 {
+  position: relative;
+  margin: 20px auto;
+  font-size: 28px;
+  width: 700px;
+}
+
+.eg {
+  margin: 10px auto;
+  font-size: 20px;
+  width: 700px;
+  padding: 0 30px;
+  
+}
+
+.eg span .korean {
+  font-weight: lighter;
+  font-family: 'Nanum Pen Script', 'Jua', 'East Sea Dokdo', cursive, sans-serif;
+  font-size: 24px;
+}
+.os {
+  margin: 10px auto;
+  font-size: 20px;
+  width: 700px;
+  padding: 0 ;
+  color: hsl(0, 0%, 66%);
+}
+
+.murmur {
+  margin: 10px auto;
+  font-size: 18px;
+  width: 700px;
+  padding: 0 30px;
+  color: hsl(0, 93%, 90%);
+}
+
+.quote {
+  margin: 40px auto;
+  width: 500px;
+  border: 1px solid LightGrey;
+  border-radius: 22px;
+  color: rgb(120, 109, 104);
+  font-size: 17px;
+  font-family: SimHei, STHeiti, FangSong, cursive;
+  font-weight: lighter;
+  /*font-style: italic;*/
+  padding: 5px 30px 30px;
+  line-height: 30px;
+  box-shadow: 5px 5px 2px 1px rgb(232, 255, 194), -5px -5px 2px 1px rgb(232, 255, 194);
+
+}
+
+h4 {
+  display: block;
+  text-align: center;
+  font-size: 19px;
+}
+
+.intro{
+  display: block;
+  margin: 20px auto;
+  font-size: 20px;
+  font-weight: bold;
+  width: 700px;
+  text-align: center;
+}
+
+/* 回到頂端 56px */
+.toTop-arrow {
+	width: 3.5rem;
+	height: 3.5rem;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	border-radius: 33%;
+	opacity: 0.5;
+	background: #000;
+	cursor: pointer;
+	position:fixed;
+	right: 1rem;
+	bottom: 1rem;
+	display: none;
+  z-index: 10;
+}
+.toTop-arrow::before, .toTop-arrow::after {
+	width: 31px;
+	height: 7px;
+	border-radius: 3px;
+	background: #f90;
+	position: absolute;
+	content: "";
+}
+.toTop-arrow::before {
+	transform: rotate(-45deg) translate(0, -50%);
+	left: 0.4rem;
+}
+.toTop-arrow::after {
+	transform: rotate(45deg) translate(0, -50%);
+	right: 0.4rem;
+}
+.toTop-arrow:focus {outline: none;}
+.toTop-arrow:hover{
+  background-color: rgba(255, 153, 0, 0.3);
+}
+
+.background2 {
+  background-color: rgb(232, 255, 194);
+  font-family: 'Noto Serif TC', serif;
+  font-size: 25px;
+  z-index: 2;
+  color: rgba(102, 102, 102);
+  position: absolute;
+  height: 300px;
+  top: 100px;
+  width:100%;
+}
+footer {
+  background-color: rgb(232, 255, 194);
+  font-family: 'Noto Serif TC', serif;
+  font-size: 25px;
+  z-index: 3;
+  color: rgba(102, 102, 102);
+  position:relative;
+  width:100%;
+  bottom: -100px;
+  height: 200px;   /* Height of the footer */
+}
